@@ -1,0 +1,2599 @@
+{
+  "name": "AI LIBRARY",
+  "categories": [
+    {
+      "id": "assistants",
+      "name": "AI Assistants & Agents",
+      "icon": "\ud83e\udd16",
+      "color": "#8B5CF6",
+      "subcategories": [
+        {
+          "id": "chatbots",
+          "name": "AI Chatbots",
+          "tools": [
+            {
+              "name": "ChatGPT",
+              "url": "https://chat.openai.com",
+              "description": "OpenAI's flagship AI assistant for conversations, coding, and analysis",
+              "pricing": "Free / $20/mo Plus",
+              "featured": true
+            },
+            {
+              "name": "Claude",
+              "url": "https://claude.ai",
+              "description": "Anthropic's AI assistant, excellent for coding and long-form content",
+              "pricing": "Free / $20/mo Pro",
+              "featured": true
+            },
+            {
+              "name": "Gemini",
+              "url": "https://gemini.google.com",
+              "description": "Google's AI with 1M+ token context and multimodal capabilities",
+              "pricing": "Free / $19.99/mo",
+              "featured": true
+            },
+            {
+              "name": "Grok",
+              "url": "https://grok.x.ai",
+              "description": "X/Twitter's AI with real-time information and uncensored responses",
+              "pricing": "X Premium",
+              "featured": true
+            },
+            {
+              "name": "Mitte",
+              "url": "https://mitte.ai",
+              "description": "Minimalist AI assistant with elegant interface and powerful capabilities",
+              "pricing": "Free / Paid",
+              "gem": true,
+              "recentlyAdded": true
+            },
+            {
+              "name": "DeepSeek",
+              "url": "https://deepseek.com",
+              "description": "Open-source AI chatbot focused on reasoning and deep thinking",
+              "pricing": "Free",
+              "gem": true
+            },
+            {
+              "name": "Le Chat Mistral",
+              "url": "https://chat.mistral.ai",
+              "description": "Mistral AI's chatbot with context and memory features",
+              "pricing": "Free / Paid",
+              "gem": true
+            },
+            {
+              "name": "Pi",
+              "url": "https://pi.ai",
+              "description": "Personal AI for supportive and empathetic conversations",
+              "pricing": "Free",
+              "gem": true
+            },
+            {
+              "name": "Poe",
+              "url": "https://poe.com",
+              "description": "Platform to interact with multiple AI models in one place",
+              "pricing": "Free / $4.99/mo",
+              "gem": true
+            },
+            {
+              "name": "Duck.ai",
+              "url": "https://duck.ai",
+              "description": "Privacy-focused AI chat from DuckDuckGo",
+              "pricing": "Free",
+              "gem": true
+            },
+            {
+              "name": "Sider",
+              "url": "https://sider.ai",
+              "description": "AI browser sidebar with deep research and knowledge base features",
+              "pricing": "Free / Paid",
+              "gem": true
+            },
+            {
+              "name": "Tanka",
+              "url": "https://tanka.ai",
+              "description": "AI Messenger with smart reply and long-term memory for teams",
+              "pricing": "Free / Paid",
+              "gem": true
+            },
+            {
+              "id": 314,
+              "name": "OpenRouter",
+              "url": "https://openrouter.ai",
+              "description": "One API that gives you access to every AI model. Unified interface for GPT, Claude, Llama, etc.",
+              "pricing": "Pay-per-use",
+              "isGem": true
+            },
+            {
+              "id": 315,
+              "name": "MemoryPlugin",
+              "url": "https://memoryplugin.com",
+              "description": "Long term memory extension for ChatGPT, Claude, Gemini. Memories shared across tools.",
+              "pricing": "Freemium",
+              "isGem": true
+            },
+            {
+              "id": 316,
+              "name": "Geekflare Connect",
+              "url": "https://geekflare.com/connect",
+              "description": "Manage multiple AI models (GPT, Claude, Gemini) from one interface.",
+              "pricing": "Freemium",
+              "isGem": true
+            }
+          ]
+        },
+        {
+          "id": "agents",
+          "name": "AI Agents",
+          "tools": [
+            {
+              "name": "Manus",
+              "url": "https://manus.im",
+              "description": "Autonomous AI agent that can browse, code, and complete complex tasks",
+              "pricing": "Subscription",
+              "featured": true
+            },
+            {
+              "name": "Auto-GPT",
+              "url": "https://github.com/Significant-Gravitas/Auto-GPT",
+              "description": "Autonomous AI agent that chains thoughts to accomplish goals",
+              "pricing": "Free/Open Source",
+              "gem": true
+            },
+            {
+              "name": "AgentGPT",
+              "url": "https://agentgpt.reworkd.ai",
+              "description": "Browser-based autonomous AI agent builder",
+              "pricing": "Free / Paid",
+              "gem": true
+            },
+            {
+              "name": "MGX",
+              "url": "https://mgx.dev",
+              "description": "The first AI dev team - autonomous development agents",
+              "pricing": "Varies",
+              "gem": true
+            },
+            {
+              "name": "Workbeaver",
+              "url": "https://workbeaver.io",
+              "description": "Prompt a task and AI does the work for you",
+              "pricing": "Varies",
+              "gem": true
+            },
+            {
+              "id": "tool-1",
+              "name": "Moltbot (Clawd)",
+              "description": "Open-source personal AI assistant that controls your computer, manages emails, calendar, and integrates with WhatsApp/Telegram. The AI that actually does things.",
+              "url": "https://clawd.bot/",
+              "pricing": "Free (Open Source)",
+              "isGem": true,
+              "isNew": true
+            }
+          ]
+        },
+        {
+          "id": "voice-assistants",
+          "name": "Voice Assistants",
+          "tools": [
+            {
+              "name": "Apple Siri",
+              "url": "https://apple.com/siri",
+              "description": "Voice assistant integrated into Apple ecosystem",
+              "pricing": "Included"
+            },
+            {
+              "name": "Google Assistant",
+              "url": "https://assistant.google.com",
+              "description": "Voice assistant with strong NLP capabilities",
+              "pricing": "Free"
+            },
+            {
+              "name": "Amazon Alexa",
+              "url": "https://alexa.amazon.com",
+              "description": "Voice assistant for smart home and daily tasks",
+              "pricing": "Free"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "code",
+      "name": "Code & Development",
+      "icon": "\ud83d\udcbb",
+      "color": "#3B82F6",
+      "subcategories": [
+        {
+          "id": "code-editors",
+          "name": "AI Code Editors",
+          "tools": [
+            {
+              "name": "Cursor",
+              "url": "https://cursor.sh",
+              "description": "AI-powered IDE built on VS Code with intelligent code assistance",
+              "pricing": "Free / $20/mo Pro",
+              "featured": true
+            },
+            {
+              "name": "Windsurf",
+              "url": "https://codeium.com/windsurf",
+              "description": "Standalone IDE with advanced AI features and web search",
+              "pricing": "Free / Paid",
+              "featured": true,
+              "gem": true
+            },
+            {
+              "name": "Zed",
+              "url": "https://zed.dev",
+              "description": "High-performance code editor with AI integration",
+              "pricing": "Free",
+              "gem": true
+            },
+            {
+              "name": "Vibecode.dev",
+              "url": "https://vibecode.dev",
+              "description": "AI-powered coding environment",
+              "pricing": "Varies",
+              "gem": true
+            },
+            {
+              "id": 302,
+              "name": "Cline",
+              "url": "https://github.com/cline/cline",
+              "description": "VSCode extension to create apps with prompts. AI-powered coding assistant.",
+              "pricing": "Free",
+              "isGem": true
+            },
+            {
+              "id": 305,
+              "name": "Bind AI",
+              "url": "https://bindai.co",
+              "description": "Beginner-friendly AI coding assistant for learning and building.",
+              "pricing": "Freemium",
+              "isGem": true
+            },
+            {
+              "id": 307,
+              "name": "Kilo Code",
+              "url": "https://kilocode.ai",
+              "description": "VS Code and JetBrains extension for AI-powered coding.",
+              "pricing": "Freemium",
+              "isGem": true
+            },
+            {
+              "id": 308,
+              "name": "Augment Code",
+              "url": "https://augmentcode.com",
+              "description": "AI coding assistant with powerful code generation and editing.",
+              "pricing": "Paid",
+              "isGem": true
+            }
+          ]
+        },
+        {
+          "id": "app-builders",
+          "name": "AI App Builders",
+          "tools": [
+            {
+              "name": "v0",
+              "url": "https://v0.dev",
+              "description": "Vercel's AI UI generator - create React components from prompts",
+              "pricing": "Free / Paid",
+              "featured": true
+            },
+            {
+              "name": "Lovable",
+              "url": "https://lovable.dev",
+              "description": "AI-powered full-stack app builder with deployment",
+              "pricing": "Free / Paid",
+              "featured": true
+            },
+            {
+              "name": "Bolt.new",
+              "url": "https://bolt.new",
+              "description": "Browser-based AI development environment for web apps",
+              "pricing": "Free / Paid",
+              "featured": true,
+              "gem": true
+            },
+            {
+              "name": "Replit Agent",
+              "url": "https://replit.com",
+              "description": "AI that builds and deploys software from natural language",
+              "pricing": "Free / Paid",
+              "featured": true
+            },
+            {
+              "name": "a0.dev",
+              "url": "https://a0.dev",
+              "description": "AI development platform",
+              "pricing": "Varies",
+              "gem": true
+            },
+            {
+              "name": "Blitzy",
+              "url": "https://blitzy.com",
+              "description": "AI-powered development platform",
+              "pricing": "Varies",
+              "gem": true
+            },
+            {
+              "name": "Caffeine.AI",
+              "url": "https://caffeine.ai",
+              "description": "Create apps and websites simply by chatting with AI",
+              "pricing": "Free / Paid",
+              "featured": true,
+              "gem": true
+            },
+            {
+              "name": "Wegic",
+              "url": "https://wegic.ai",
+              "description": "Your first AI website team - build sites conversationally",
+              "pricing": "Free / Paid",
+              "gem": true
+            },
+            {
+              "name": "21st.dev",
+              "url": "https://21st.dev",
+              "description": "Github + Pinterest to make your AI websites look beautiful",
+              "pricing": "Free / Paid",
+              "gem": true
+            },
+            {
+              "id": 301,
+              "name": "Flames.blue",
+              "url": "https://flames.blue",
+              "description": "AI App Builder - Build, deploy & monetize apps by chatting with AI. Features forms, AI integrations, payments, analytics.",
+              "pricing": "Freemium",
+              "isGem": true
+            },
+            {
+              "id": 303,
+              "name": "Pickaxe",
+              "url": "https://pickaxeproject.com",
+              "description": "Build, sell or embed GPT-style apps. No-code AI app builder.",
+              "pricing": "Freemium",
+              "isGem": true
+            },
+            {
+              "id": 306,
+              "name": "Rosebud",
+              "url": "https://rosebud.ai",
+              "description": "AI game development platform for creating games without coding.",
+              "pricing": "Freemium",
+              "isGem": true
+            }
+          ]
+        },
+        {
+          "id": "coding-assistants",
+          "name": "Coding Assistants",
+          "tools": [
+            {
+              "name": "GitHub Copilot",
+              "url": "https://github.com/features/copilot",
+              "description": "AI pair programmer with real-time code suggestions",
+              "pricing": "Free / $10/mo",
+              "featured": true
+            },
+            {
+              "name": "Cody",
+              "url": "https://sourcegraph.com/cody",
+              "description": "AI coding assistant that understands your entire codebase",
+              "pricing": "Free / Paid"
+            },
+            {
+              "name": "Tabnine",
+              "url": "https://tabnine.com",
+              "description": "AI code completion trained on your codebase",
+              "pricing": "Free / Paid"
+            },
+            {
+              "name": "Cline",
+              "url": "https://github.com/cline/cline",
+              "description": "VS Code extension for AI coding with custom models",
+              "pricing": "Free",
+              "gem": true
+            },
+            {
+              "name": "Aider",
+              "url": "https://aider.chat",
+              "description": "Command-line AI coding tool with Git-native workflow",
+              "pricing": "Free",
+              "gem": true
+            },
+            {
+              "name": "Roo",
+              "url": "https://roo.dev",
+              "description": "VS Code extension for AI-powered coding",
+              "pricing": "Pay per use",
+              "gem": true
+            },
+            {
+              "name": "TestSprite",
+              "url": "https://testsprite.com",
+              "description": "First AI agent automating entire software testing process",
+              "pricing": "Varies",
+              "gem": true
+            },
+            {
+              "name": "Basalt",
+              "url": "https://basalt.ai",
+              "description": "Integrate AI in your product in seconds",
+              "pricing": "Varies",
+              "gem": true
+            },
+            {
+              "name": "Qodo",
+              "url": "https://qodo.ai",
+              "description": "AI coding assistant for code quality and testing",
+              "pricing": "Free / Paid",
+              "gem": true
+            }
+          ]
+        },
+        {
+          "id": "dev-tools",
+          "name": "Dev Tools & APIs",
+          "tools": [
+            {
+              "name": "OpenRouter",
+              "url": "https://openrouter.ai",
+              "description": "Unified API to access 300+ AI models from various providers",
+              "pricing": "Pay per use",
+              "gem": true
+            },
+            {
+              "name": "Retool",
+              "url": "https://retool.com",
+              "description": "Low-code platform for building internal tools",
+              "pricing": "Free / Paid"
+            },
+            {
+              "name": "Sanity.io",
+              "url": "https://sanity.io",
+              "description": "Headless CMS with AI-powered content management",
+              "pricing": "Free / Paid",
+              "gem": true
+            },
+            {
+              "name": "Xcode AI",
+              "url": "https://developer.apple.com/xcode",
+              "description": "AI coding assistant for Apple ecosystem development",
+              "pricing": "Free"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "image",
+      "name": "Image & Art",
+      "icon": "\ud83c\udfa8",
+      "color": "#EC4899",
+      "subcategories": [
+        {
+          "id": "image-gen",
+          "name": "Image Generation",
+          "tools": [
+            {
+              "name": "Midjourney",
+              "url": "https://midjourney.com",
+              "description": "Leading AI image generator known for artistic, painterly aesthetics",
+              "pricing": "From $10/mo",
+              "featured": true
+            },
+            {
+              "name": "DALL-E 3",
+              "url": "https://openai.com/dall-e-3",
+              "description": "OpenAI's image generator with excellent prompt understanding",
+              "pricing": "Via ChatGPT Plus",
+              "featured": true
+            },
+            {
+              "name": "Stable Diffusion",
+              "url": "https://stability.ai",
+              "description": "Open-source image generation model with extensive customization",
+              "pricing": "Free / Paid",
+              "featured": true
+            },
+            {
+              "name": "FLUX",
+              "url": "https://blackforestlabs.ai",
+              "description": "Production-grade AI image generation and editing",
+              "pricing": "Varies",
+              "featured": true
+            },
+            {
+              "name": "Ideogram",
+              "url": "https://ideogram.ai",
+              "description": "Best for accurate text rendering in images",
+              "pricing": "Free / $8/mo",
+              "featured": true
+            },
+            {
+              "name": "Leonardo.ai",
+              "url": "https://leonardo.ai",
+              "description": "AI image generation with fine-tuned models for games and art",
+              "pricing": "Free / Paid",
+              "gem": true
+            },
+            {
+              "name": "Krea.ai",
+              "url": "https://krea.ai",
+              "description": "Real-time AI image generation and enhancement",
+              "pricing": "Free / Paid",
+              "featured": true,
+              "gem": true
+            },
+            {
+              "name": "Dreamina",
+              "url": "https://dreamina.ai",
+              "description": "All-in-one AI creative suite for all your artistic work",
+              "pricing": "Free / Paid",
+              "featured": true,
+              "gem": true
+            },
+            {
+              "id": 313,
+              "name": "Dungeon Alchemist",
+              "url": "https://dungeonalchemist.com",
+              "description": "AI-powered fantasy and RPG map generation for tabletop games.",
+              "pricing": "Paid",
+              "isGem": true
+            }
+          ]
+        },
+        {
+          "id": "image-edit",
+          "name": "Image Editing",
+          "tools": [
+            {
+              "name": "Adobe Firefly",
+              "url": "https://firefly.adobe.com",
+              "description": "Adobe's generative AI for creative image editing",
+              "pricing": "Free / Paid",
+              "featured": true
+            },
+            {
+              "name": "Remini",
+              "url": "https://remini.ai",
+              "description": "AI photo enhancer for restoring old or low-quality images",
+              "pricing": "Free / Paid"
+            },
+            {
+              "name": "LetsEnhance",
+              "url": "https://letsenhance.io",
+              "description": "AI-powered image upscaling and enhancement",
+              "pricing": "Freemium"
+            },
+            {
+              "name": "Photoroom",
+              "url": "https://photoroom.com",
+              "description": "AI background removal and product photography",
+              "pricing": "Free / Paid"
+            },
+            {
+              "id": 312,
+              "name": "Pictools AI",
+              "url": "https://pictools.ai",
+              "description": "AI tools for creative and content work - image editing, generation, enhancement.",
+              "pricing": "Freemium",
+              "isGem": true
+            }
+          ]
+        },
+        {
+          "id": "design-tools",
+          "name": "AI Design Tools",
+          "tools": [
+            {
+              "name": "Canva AI",
+              "url": "https://canva.com",
+              "description": "Design platform with AI-powered features for everyone",
+              "pricing": "Free / Paid",
+              "featured": true
+            },
+            {
+              "name": "Figma AI",
+              "url": "https://figma.com",
+              "description": "Design tool with AI features for UI/UX design",
+              "pricing": "Free / Paid",
+              "featured": true
+            },
+            {
+              "name": "Framer AI",
+              "url": "https://framer.com",
+              "description": "AI-powered website builder and design tool",
+              "pricing": "Free / Paid"
+            },
+            {
+              "name": "Sleek.design",
+              "url": "https://sleek.design",
+              "description": "AI design tool for modern interfaces",
+              "pricing": "Varies",
+              "gem": true
+            },
+            {
+              "name": "Dessn.ai",
+              "url": "https://dessn.ai",
+              "description": "AI-powered design assistant",
+              "pricing": "Varies",
+              "gem": true
+            },
+            {
+              "name": "Unicorn.studio",
+              "url": "https://unicorn.studio",
+              "description": "AI-powered design and animation studio",
+              "pricing": "Varies",
+              "gem": true
+            },
+            {
+              "name": "Flora Fauna AI",
+              "url": "https://florafaunaai.com",
+              "description": "AI creative design tool",
+              "pricing": "Varies",
+              "gem": true
+            },
+            {
+              "name": "Napkin AI",
+              "url": "https://napkin.ai",
+              "description": "Visual AI for business storytelling - transforms text into diagrams",
+              "pricing": "Free / Paid",
+              "featured": true,
+              "gem": true
+            },
+            {
+              "name": "Beautiful.ai",
+              "url": "https://beautiful.ai",
+              "description": "AI-powered presentation design with smart templates",
+              "pricing": "Free / $12/mo",
+              "gem": true
+            },
+            {
+              "name": "Lovart.ai",
+              "url": "https://lovart.ai",
+              "description": "The world's first AI Design Agent. Automated graphic design platform that creates professional designs through AI-powered automation.",
+              "pricing": "Freemium",
+              "isGem": true,
+              "id": 331
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "video",
+      "name": "Video & Animation",
+      "icon": "\ud83c\udfac",
+      "color": "#F59E0B",
+      "subcategories": [
+        {
+          "id": "video-gen",
+          "name": "Video Generation",
+          "tools": [
+            {
+              "name": "Sora",
+              "url": "https://openai.com/sora",
+              "description": "OpenAI's text-to-video model creating realistic videos",
+              "pricing": "Via ChatGPT Pro",
+              "featured": true
+            },
+            {
+              "name": "Runway",
+              "url": "https://runway.ml",
+              "description": "AI creative suite for video generation and editing",
+              "pricing": "Free / Paid",
+              "featured": true
+            },
+            {
+              "name": "Pika",
+              "url": "https://pika.art",
+              "description": "AI video generation with creative controls",
+              "pricing": "Free / Paid",
+              "featured": true
+            },
+            {
+              "name": "Kling",
+              "url": "https://kling.kuaishou.com",
+              "description": "Kuaishou's AI video generation model",
+              "pricing": "Varies",
+              "featured": true,
+              "gem": true
+            },
+            {
+              "name": "Luma Dream Machine",
+              "url": "https://lumalabs.ai",
+              "description": "AI video generation from text and images",
+              "pricing": "Free / Paid",
+              "gem": true
+            },
+            {
+              "name": "Haiper",
+              "url": "https://haiper.ai",
+              "description": "AI video creation platform",
+              "pricing": "Free / Paid",
+              "gem": true
+            },
+            {
+              "name": "VidAU",
+              "url": "https://vidau.ai",
+              "description": "Turn product images into scroll-stopping video ads",
+              "pricing": "Free / Paid",
+              "gem": true
+            },
+            {
+              "name": "Pippit AI",
+              "url": "https://pippit.ai",
+              "description": "Smart video & image creator for marketing success",
+              "pricing": "Free / Paid",
+              "gem": true
+            },
+            {
+              "name": "Pika Labs",
+              "url": "https://pika.art",
+              "description": "AI video generation with creative controls",
+              "pricing": "Free / Paid",
+              "gem": true
+            },
+            {
+              "name": "Colossyan",
+              "url": "https://colossyan.com",
+              "description": "AI video for learning and training content",
+              "pricing": "Paid",
+              "gem": true
+            },
+            {
+              "name": "Hour One",
+              "url": "https://hourone.ai",
+              "description": "AI video production with virtual presenters",
+              "pricing": "Paid",
+              "gem": true
+            },
+            {
+              "name": "Elai.io",
+              "url": "https://elai.io",
+              "description": "AI video generator from text with avatars",
+              "pricing": "Free / Paid",
+              "gem": true
+            },
+            {
+              "name": "Pictory",
+              "url": "https://pictory.ai",
+              "description": "AI video creation from long-form text content",
+              "pricing": "Free / Paid",
+              "gem": true
+            },
+            {
+              "id": 309,
+              "name": "Remotion",
+              "url": "https://remotion.dev",
+              "description": "Make videos programmatically with React. Create real MP4 videos, parametrize content, render server-side.",
+              "pricing": "Free",
+              "isGem": true
+            },
+            {
+              "id": 310,
+              "name": "EasyVid",
+              "url": "https://easyvid.app",
+              "description": "Make videos from script or text prompt easily.",
+              "pricing": "Freemium",
+              "isGem": true
+            },
+            {
+              "id": 311,
+              "name": "Fliki AI",
+              "url": "https://fliki.ai",
+              "description": "Transform scripts or blog posts into engaging videos. 75+ languages, 100+ dialects.",
+              "pricing": "Freemium",
+              "isGem": false
+            },
+            {
+              "id": "tool-2",
+              "name": "Remotion Framework",
+              "description": "Make videos programmatically with React. Create real MP4 videos, parametrize content, render server-side and build video applications.",
+              "url": "https://www.remotion.dev/",
+              "pricing": "Freemium",
+              "isGem": true,
+              "isNew": true
+            }
+          ]
+        },
+        {
+          "id": "video-edit",
+          "name": "Video Editing",
+          "tools": [
+            {
+              "name": "Opus.pro",
+              "url": "https://opus.pro",
+              "description": "AI-powered video clipping and repurposing tool",
+              "pricing": "Free / Paid",
+              "featured": true,
+              "gem": true
+            },
+            {
+              "name": "Descript",
+              "url": "https://descript.com",
+              "description": "AI video and podcast editor with transcription",
+              "pricing": "Free / Paid",
+              "featured": true
+            },
+            {
+              "name": "CapCut",
+              "url": "https://capcut.com",
+              "description": "Free video editor with AI features",
+              "pricing": "Free / Paid"
+            },
+            {
+              "name": "Invideo AI",
+              "url": "https://invideo.io",
+              "description": "AI video creation from text prompts",
+              "pricing": "Free / Paid"
+            },
+            {
+              "name": "Kapwing",
+              "url": "https://kapwing.com",
+              "description": "AI video editor with smart tools",
+              "pricing": "Free / Paid"
+            }
+          ]
+        },
+        {
+          "id": "avatars",
+          "name": "AI Avatars",
+          "tools": [
+            {
+              "name": "Synthesia",
+              "url": "https://synthesia.io",
+              "description": "AI video generation with realistic avatars",
+              "pricing": "From $22/mo",
+              "featured": true
+            },
+            {
+              "name": "HeyGen",
+              "url": "https://heygen.com",
+              "description": "AI video creation with customizable avatars",
+              "pricing": "Free / Paid"
+            },
+            {
+              "name": "D-ID",
+              "url": "https://d-id.com",
+              "description": "AI-powered talking avatars and video creation",
+              "pricing": "Free / Paid"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "audio",
+      "name": "Audio & Music",
+      "icon": "\ud83c\udfb5",
+      "color": "#10B981",
+      "subcategories": [
+        {
+          "id": "music-gen",
+          "name": "Music Generation",
+          "tools": [
+            {
+              "name": "Suno",
+              "url": "https://suno.ai",
+              "description": "AI music generation - create full songs from text prompts",
+              "pricing": "Free / Paid",
+              "featured": true
+            },
+            {
+              "name": "Udio",
+              "url": "https://udio.com",
+              "description": "AI music creation with high-quality output and stems",
+              "pricing": "Free / Paid",
+              "featured": true
+            },
+            {
+              "name": "AIVA",
+              "url": "https://aiva.ai",
+              "description": "AI composer for emotional soundtrack music",
+              "pricing": "Free / Paid"
+            },
+            {
+              "name": "Soundraw",
+              "url": "https://soundraw.io",
+              "description": "AI music generator for royalty-free tracks",
+              "pricing": "Subscription"
+            },
+            {
+              "name": "Boomy",
+              "url": "https://boomy.com",
+              "description": "AI music creation - make songs in seconds",
+              "pricing": "Free / Paid",
+              "gem": true
+            },
+            {
+              "name": "Beatoven.ai",
+              "url": "https://beatoven.ai",
+              "description": "AI music for videos - royalty-free",
+              "pricing": "Free / Paid",
+              "gem": true
+            },
+            {
+              "name": "Soundful",
+              "url": "https://soundful.com",
+              "description": "AI music generator for content creators",
+              "pricing": "Free / Paid",
+              "gem": true
+            },
+            {
+              "name": "Riffusion",
+              "url": "https://riffusion.com",
+              "description": "AI music from text descriptions using spectrograms",
+              "pricing": "Free",
+              "gem": true
+            },
+            {
+              "name": "Stable Audio",
+              "url": "https://stableaudio.com",
+              "description": "Stability AI's audio generation",
+              "pricing": "Free / Paid",
+              "gem": true
+            },
+            {
+              "name": "Mureka",
+              "url": "https://mureka.ai",
+              "description": "AI music & lyrics generator for unique tracks",
+              "pricing": "Free / Paid",
+              "gem": true
+            }
+          ]
+        },
+        {
+          "id": "mixing-mastering",
+          "name": "Mixing & Mastering",
+          "tools": [
+            {
+              "name": "iZotope Ozone",
+              "url": "https://izotope.com/ozone",
+              "description": "Industry-standard AI mastering assistant with intelligent processing",
+              "pricing": "$249+",
+              "featured": true
+            },
+            {
+              "name": "iZotope Neutron",
+              "url": "https://izotope.com/neutron",
+              "description": "AI mix assistant for EQ, compression, saturation",
+              "pricing": "$249+",
+              "featured": true
+            },
+            {
+              "name": "LANDR",
+              "url": "https://landr.com",
+              "description": "AI mastering platform with distribution",
+              "pricing": "Subscription",
+              "featured": true
+            },
+            {
+              "name": "Masterchannel",
+              "url": "https://masterchannel.ai",
+              "description": "Grammy-winning AI mastering service",
+              "pricing": "Subscription",
+              "gem": true
+            },
+            {
+              "name": "Roex",
+              "url": "https://roexaudio.com",
+              "description": "AI mixing and mastering with automatic adjustments",
+              "pricing": "Subscription",
+              "gem": true
+            },
+            {
+              "name": "CryoMix",
+              "url": "https://cryomix.com",
+              "description": "AI mixing/mastering for vocalists and rappers",
+              "pricing": "Pay per use",
+              "gem": true
+            },
+            {
+              "name": "Mixea",
+              "url": "https://mixea.com",
+              "description": "AI mastering by DistroKid creators",
+              "pricing": "Subscription",
+              "gem": true
+            },
+            {
+              "name": "Waves Online Mastering",
+              "url": "https://waves.com/online-mastering",
+              "description": "AI mastering engine from Waves",
+              "pricing": "Pay per use"
+            },
+            {
+              "name": "Focusrite Fast Bundle",
+              "url": "https://focusrite.com/fast",
+              "description": "AI-powered mixing plugins bundle",
+              "pricing": "$149",
+              "gem": true
+            },
+            {
+              "name": "Sonible Pure Bundle",
+              "url": "https://sonible.com/purebundle",
+              "description": "One-knob AI compressor, limiter, reverb",
+              "pricing": "$149",
+              "gem": true
+            }
+          ]
+        },
+        {
+          "id": "composition-midi",
+          "name": "Composition & MIDI",
+          "tools": [
+            {
+              "name": "Orb Producer Suite",
+              "url": "https://hexachords.com/orb-producer-suite",
+              "description": "AI chord, melody, bass & arpeggio generator",
+              "pricing": "$149",
+              "featured": true
+            },
+            {
+              "name": "Lemonaide",
+              "url": "https://lemonaide.ai",
+              "description": "#1 AI melody generator by Grammy producers",
+              "pricing": "$99",
+              "featured": true
+            },
+            {
+              "name": "Melody Sauce 2",
+              "url": "https://evabeat.com/melody-sauce",
+              "description": "AI melody generator plugin",
+              "pricing": "$99"
+            },
+            {
+              "name": "Spark Chords",
+              "url": "https://mozaic.io/spark",
+              "description": "AI chord trigger from text input",
+              "pricing": "$49",
+              "gem": true
+            },
+            {
+              "name": "InstaChord 2",
+              "url": "https://wamusictech.com/instachord",
+              "description": "AI chord progressions and voicings",
+              "pricing": "$59",
+              "gem": true
+            },
+            {
+              "name": "Magenta Studio",
+              "url": "https://magenta.tensorflow.org/studio",
+              "description": "Google's AI MIDI tools for Ableton",
+              "pricing": "Free",
+              "gem": true
+            },
+            {
+              "name": "Captain Plugins",
+              "url": "https://mixedinkey.com/captain-plugins",
+              "description": "AI-assisted chord and melody writing",
+              "pricing": "$149"
+            },
+            {
+              "name": "Hookpad",
+              "url": "https://hooktheory.com/hookpad",
+              "description": "AI chord & melody assistant with theory",
+              "pricing": "Subscription",
+              "gem": true
+            },
+            {
+              "name": "Scaler 2",
+              "url": "https://pluginboutique.com/scaler",
+              "description": "Music theory and chord progression tool",
+              "pricing": "$69"
+            }
+          ]
+        },
+        {
+          "id": "drums-beats",
+          "name": "Drums & Beats",
+          "tools": [
+            {
+              "name": "Atlas 2",
+              "url": "https://algonaut.audio/atlas",
+              "description": "AI sample browser and drum sequencer",
+              "pricing": "$99",
+              "featured": true
+            },
+            {
+              "name": "Playbeat 3",
+              "url": "https://audiomodern.com/playbeat",
+              "description": "AI drum sequencer with smart patterns",
+              "pricing": "$69",
+              "featured": true
+            },
+            {
+              "name": "Emergent Drums 2",
+              "url": "https://audialab.com/emergent-drums",
+              "description": "AI drum synthesis - infinite unique sounds",
+              "pricing": "$149",
+              "gem": true
+            },
+            {
+              "name": "Drumnet",
+              "url": "https://drumnet.ai",
+              "description": "AI drum pattern generator",
+              "pricing": "Free",
+              "gem": true
+            },
+            {
+              "name": "XLN XO",
+              "url": "https://xlnaudio.com/xo",
+              "description": "AI-powered beat maker and sample organizer",
+              "pricing": "$179"
+            },
+            {
+              "name": "Splice Beat Maker",
+              "url": "https://splice.com/beat-maker",
+              "description": "AI beat creation with Splice samples",
+              "pricing": "Subscription",
+              "gem": true
+            }
+          ]
+        },
+        {
+          "id": "vocal-processing",
+          "name": "Vocal Processing",
+          "tools": [
+            {
+              "name": "Auto-Tune",
+              "url": "https://antarestech.com",
+              "description": "Industry-standard pitch correction",
+              "pricing": "$99-399",
+              "featured": true
+            },
+            {
+              "name": "Melodyne",
+              "url": "https://celemony.com/melodyne",
+              "description": "Advanced pitch and time editing",
+              "pricing": "$99-699",
+              "featured": true
+            },
+            {
+              "name": "Waves Clarity VX Pro",
+              "url": "https://waves.com/clarity-vx-pro",
+              "description": "AI vocal noise reduction",
+              "pricing": "$199"
+            },
+            {
+              "name": "iZotope Nectar",
+              "url": "https://izotope.com/nectar",
+              "description": "AI vocal chain and processing",
+              "pricing": "$249"
+            },
+            {
+              "name": "Synthesizer V",
+              "url": "https://dreamtonics.com/synthesizerv",
+              "description": "AI vocal synthesis for realistic singing",
+              "pricing": "$89+",
+              "gem": true
+            },
+            {
+              "name": "Vocaloid 6",
+              "url": "https://vocaloid.com",
+              "description": "AI vocal synthesis by Yamaha",
+              "pricing": "$225",
+              "gem": true
+            },
+            {
+              "name": "iZotope VocalSynth",
+              "url": "https://izotope.com/vocalsynth",
+              "description": "AI vocal effects and transformation",
+              "pricing": "$199",
+              "gem": true
+            }
+          ]
+        },
+        {
+          "id": "stem-separation",
+          "name": "Stem Separation",
+          "tools": [
+            {
+              "name": "LALAL.AI",
+              "url": "https://lalal.ai",
+              "description": "AI audio separation - extract vocals/instruments",
+              "pricing": "Pay per use",
+              "featured": true
+            },
+            {
+              "name": "Moises",
+              "url": "https://moises.ai",
+              "description": "AI stem separation and practice tool",
+              "pricing": "Free / Paid",
+              "featured": true
+            },
+            {
+              "name": "Fadr",
+              "url": "https://fadr.com",
+              "description": "Free AI vocal remover and stem splitter",
+              "pricing": "Free",
+              "gem": true
+            },
+            {
+              "name": "Ultimate Vocal Remover",
+              "url": "https://ultimatevocalremover.com",
+              "description": "Open-source AI stem separation",
+              "pricing": "Free",
+              "gem": true
+            },
+            {
+              "name": "AudioStrip",
+              "url": "https://audiostrip.co.uk",
+              "description": "AI vocal isolation online",
+              "pricing": "Free / Paid",
+              "gem": true
+            },
+            {
+              "name": "Gaudio Studio",
+              "url": "https://gaudiolab.com",
+              "description": "Professional AI stem separation",
+              "pricing": "Subscription",
+              "gem": true
+            }
+          ]
+        },
+        {
+          "id": "voice-speech",
+          "name": "Voice & Speech",
+          "tools": [
+            {
+              "name": "ElevenLabs",
+              "url": "https://elevenlabs.io",
+              "description": "Leading AI voice synthesis and cloning",
+              "pricing": "Free / Paid",
+              "featured": true
+            },
+            {
+              "name": "Murf AI",
+              "url": "https://murf.ai",
+              "description": "AI voice generator with 120+ voices",
+              "pricing": "Free / Paid"
+            },
+            {
+              "name": "Play.ht",
+              "url": "https://play.ht",
+              "description": "AI text-to-speech with realistic voices",
+              "pricing": "Free / Paid"
+            },
+            {
+              "name": "Resemble AI",
+              "url": "https://resemble.ai",
+              "description": "AI voice cloning and synthesis",
+              "pricing": "Paid",
+              "gem": true
+            },
+            {
+              "name": "Speechify",
+              "url": "https://speechify.com",
+              "description": "Text to speech with natural voices",
+              "pricing": "Free / Paid"
+            },
+            {
+              "name": "Lovo AI",
+              "url": "https://lovo.ai",
+              "description": "AI voice & video with 500+ voices",
+              "pricing": "Free / Paid"
+            },
+            {
+              "name": "WellSaid Labs",
+              "url": "https://wellsaidlabs.com",
+              "description": "Enterprise AI voice generation",
+              "pricing": "Paid",
+              "gem": true
+            },
+            {
+              "name": "Typecast",
+              "url": "https://typecast.ai",
+              "description": "AI voice actors for content creation",
+              "pricing": "Free / Paid",
+              "gem": true
+            },
+            {
+              "id": 304,
+              "name": "SuperWhisper",
+              "url": "https://superwhisper.com",
+              "description": "Voice mode for Mac that unlocks voice input with every AI tool.",
+              "pricing": "Paid",
+              "isGem": true
+            }
+          ]
+        },
+        {
+          "id": "audio-enhancement",
+          "name": "Audio Enhancement",
+          "tools": [
+            {
+              "name": "Adobe Podcast",
+              "url": "https://podcast.adobe.com",
+              "description": "AI-powered audio enhancement",
+              "pricing": "Free",
+              "featured": true
+            },
+            {
+              "name": "Krisp",
+              "url": "https://krisp.ai",
+              "description": "AI noise cancellation for calls",
+              "pricing": "Free / Paid"
+            },
+            {
+              "name": "Cleanvoice AI",
+              "url": "https://cleanvoice.ai",
+              "description": "AI podcast editing - removes filler words",
+              "pricing": "Pay per use",
+              "gem": true
+            },
+            {
+              "name": "Podcastle",
+              "url": "https://podcastle.ai",
+              "description": "AI podcast studio - record, edit, enhance",
+              "pricing": "Free / Paid"
+            },
+            {
+              "name": "Descript",
+              "url": "https://descript.com",
+              "description": "AI audio/video editing with transcription",
+              "pricing": "Free / Paid",
+              "featured": true
+            },
+            {
+              "name": "Auphonic",
+              "url": "https://auphonic.com",
+              "description": "AI audio post-production and leveling",
+              "pricing": "Free / Paid",
+              "gem": true
+            },
+            {
+              "name": "TAIP",
+              "url": "https://babyaud.io/taip",
+              "description": "AI tape saturation plugin",
+              "pricing": "$49",
+              "gem": true
+            },
+            {
+              "name": "Adaptiverb",
+              "url": "https://zynaptiq.com/adaptiverb",
+              "description": "AI adaptive reverb plugin",
+              "pricing": "$249",
+              "gem": true
+            },
+            {
+              "name": "Neoverb",
+              "url": "https://izotope.com/neoverb",
+              "description": "AI intelligent reverb by iZotope",
+              "pricing": "$129",
+              "gem": true
+            }
+          ]
+        },
+        {
+          "id": "sound-design",
+          "name": "Sound Design & Samples",
+          "tools": [
+            {
+              "name": "Splice",
+              "url": "https://splice.com",
+              "description": "Sample library with AI-powered search",
+              "pricing": "Subscription",
+              "featured": true
+            },
+            {
+              "name": "Synplant 2",
+              "url": "https://soniccharge.com/synplant",
+              "description": "AI synth patch generator from audio",
+              "pricing": "$149",
+              "gem": true
+            },
+            {
+              "name": "Text to Sample",
+              "url": "https://texttosample.com",
+              "description": "Generate samples from text descriptions",
+              "pricing": "Free",
+              "gem": true
+            },
+            {
+              "name": "Cosmos",
+              "url": "https://waves.com/cosmos",
+              "description": "AI sample finder and organizer",
+              "pricing": "Free",
+              "gem": true
+            },
+            {
+              "name": "Samplette",
+              "url": "https://samplette.io",
+              "description": "AI sample discovery platform",
+              "pricing": "Free",
+              "gem": true
+            },
+            {
+              "name": "Output Arcade",
+              "url": "https://output.com/arcade",
+              "description": "Loop synthesizer with AI suggestions",
+              "pricing": "Subscription"
+            },
+            {
+              "name": "WavTool",
+              "url": "https://wavtool.com",
+              "description": "AI-powered browser DAW",
+              "pricing": "Free / Paid",
+              "gem": true
+            }
+          ]
+        },
+        {
+          "id": "lyrics-songwriting",
+          "name": "Lyrics & Songwriting",
+          "tools": [
+            {
+              "name": "LyricStudio",
+              "url": "https://lyricstudio.net",
+              "description": "AI lyrics generator and rhyme assistant",
+              "pricing": "Free / Paid",
+              "featured": true
+            },
+            {
+              "name": "Jarvis Lyrics",
+              "url": "https://jarvis.ai/lyrics",
+              "description": "AI songwriting assistant",
+              "pricing": "Subscription",
+              "gem": true
+            },
+            {
+              "name": "Melody Studio",
+              "url": "https://melodystudio.net",
+              "description": "AI melody generator for lyrics",
+              "pricing": "Free / Paid",
+              "gem": true
+            },
+            {
+              "name": "These Lyrics Do Not Exist",
+              "url": "https://theselyricsdonotexist.com",
+              "description": "AI-generated song lyrics",
+              "pricing": "Free",
+              "gem": true
+            },
+            {
+              "name": "Amadeus Code",
+              "url": "https://amadeuscode.com",
+              "description": "AI songwriting app",
+              "pricing": "Subscription",
+              "gem": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "writing",
+      "name": "Writing & Content",
+      "icon": "\u270d\ufe0f",
+      "color": "#6366F1",
+      "subcategories": [
+        {
+          "id": "copywriting",
+          "name": "Copywriting",
+          "tools": [
+            {
+              "name": "Jasper",
+              "url": "https://jasper.ai",
+              "description": "AI content platform for marketing teams",
+              "pricing": "From $39/mo",
+              "featured": true
+            },
+            {
+              "name": "Copy.ai",
+              "url": "https://copy.ai",
+              "description": "AI copywriting for marketing content",
+              "pricing": "Free / Paid"
+            },
+            {
+              "name": "Writesonic",
+              "url": "https://writesonic.com",
+              "description": "AI writer for blogs, ads, and more",
+              "pricing": "Free / Paid"
+            },
+            {
+              "name": "Rytr",
+              "url": "https://rytr.me",
+              "description": "AI writing assistant for various content types",
+              "pricing": "Free / Paid"
+            },
+            {
+              "name": "Tome",
+              "url": "https://tome.app",
+              "description": "AI storytelling - create narratives with AI",
+              "pricing": "Free / Paid",
+              "gem": true
+            },
+            {
+              "id": 317,
+              "name": "Machined.ai",
+              "url": "https://machined.ai",
+              "description": "AI-powered blog posts at scale. Generate SEO-optimized content automatically.",
+              "pricing": "Paid",
+              "isGem": true
+            }
+          ]
+        },
+        {
+          "id": "writing-assist",
+          "name": "Writing Assistants",
+          "tools": [
+            {
+              "name": "Grammarly",
+              "url": "https://grammarly.com",
+              "description": "AI writing assistant for grammar and style",
+              "pricing": "Free / Paid",
+              "featured": true
+            },
+            {
+              "name": "Notion AI",
+              "url": "https://notion.so",
+              "description": "AI writing and organization within Notion",
+              "pricing": "$10/mo add-on",
+              "featured": true
+            },
+            {
+              "name": "Wordtune",
+              "url": "https://wordtune.com",
+              "description": "AI rewriting and paraphrasing tool",
+              "pricing": "Free / Paid"
+            },
+            {
+              "name": "QuillBot",
+              "url": "https://quillbot.com",
+              "description": "AI paraphrasing and summarization",
+              "pricing": "Free / Paid"
+            },
+            {
+              "id": 318,
+              "name": "Scribeshadow",
+              "url": "https://scribeshadow.com",
+              "description": "Translate content from English to Dutch, German, Italian, French, Spanish, Portuguese.",
+              "pricing": "Paid",
+              "isGem": true
+            },
+            {
+              "id": 319,
+              "name": "GPTales",
+              "url": "https://gptales.com",
+              "description": "AI bedtime stories with images and voice for children.",
+              "pricing": "Free",
+              "isGem": true
+            },
+            {
+              "id": 320,
+              "name": "Rephrasy",
+              "url": "https://rephrasy.ai",
+              "description": "Grammar, typos, clarity and tone improvement tool.",
+              "pricing": "Freemium",
+              "isGem": true
+            },
+            {
+              "id": 321,
+              "name": "RewriteBar",
+              "url": "https://rewritebar.com",
+              "description": "AI writing assistant for Mac that rewrites and improves text.",
+              "pricing": "Paid",
+              "isGem": true
+            },
+            {
+              "id": 322,
+              "name": "Kerlig AI",
+              "url": "https://kerlig.com",
+              "description": "AI writing assistant for Mac with quick access shortcuts.",
+              "pricing": "Paid",
+              "isGem": true
+            }
+          ]
+        },
+        {
+          "id": "long-form",
+          "name": "Long-form Content",
+          "tools": [
+            {
+              "name": "Sudowrite",
+              "url": "https://sudowrite.com",
+              "description": "AI writing partner for fiction authors",
+              "pricing": "From $10/mo",
+              "gem": true
+            },
+            {
+              "name": "NovelAI",
+              "url": "https://novelai.net",
+              "description": "AI storytelling and image generation",
+              "pricing": "From $10/mo",
+              "gem": true
+            },
+            {
+              "name": "Lex",
+              "url": "https://lex.page",
+              "description": "AI-powered word processor for writers",
+              "pricing": "Free / Paid",
+              "gem": true
+            },
+            {
+              "id": 323,
+              "name": "VerbalTide",
+              "url": "https://verbaltide.lumenharbor.co.uk",
+              "description": "Write blog articles from videos. Upload audio/video or use YouTube links.",
+              "pricing": "Freemium",
+              "isGem": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "research",
+      "name": "Research & Knowledge",
+      "icon": "\ud83d\udd2c",
+      "color": "#14B8A6",
+      "subcategories": [
+        {
+          "id": "search",
+          "name": "AI Search",
+          "tools": [
+            {
+              "name": "Perplexity",
+              "url": "https://perplexity.ai",
+              "description": "AI-powered search engine with cited answers",
+              "pricing": "Free / $20/mo Pro",
+              "featured": true
+            },
+            {
+              "name": "You.com",
+              "url": "https://you.com",
+              "description": "AI search engine with multiple modes",
+              "pricing": "Free / Paid"
+            },
+            {
+              "name": "Phind",
+              "url": "https://phind.com",
+              "description": "AI search engine optimized for developers",
+              "pricing": "Free / Paid",
+              "gem": true
+            }
+          ]
+        },
+        {
+          "id": "knowledge",
+          "name": "Knowledge Management",
+          "tools": [
+            {
+              "name": "NotebookLM",
+              "url": "https://notebooklm.google.com",
+              "description": "Google's AI notebook for research and learning",
+              "pricing": "Free",
+              "featured": true
+            },
+            {
+              "name": "Mem",
+              "url": "https://mem.ai",
+              "description": "AI-powered note-taking and knowledge base",
+              "pricing": "Free / Paid",
+              "gem": true
+            },
+            {
+              "name": "Reflect",
+              "url": "https://reflect.app",
+              "description": "AI note-taking with backlinks",
+              "pricing": "Paid",
+              "gem": true
+            }
+          ]
+        },
+        {
+          "id": "research-tools",
+          "name": "Research Tools",
+          "tools": [
+            {
+              "name": "Elicit",
+              "url": "https://elicit.org",
+              "description": "AI research assistant for academic papers",
+              "pricing": "Free / Paid",
+              "featured": true
+            },
+            {
+              "name": "Consensus",
+              "url": "https://consensus.app",
+              "description": "AI search engine for scientific research",
+              "pricing": "Free / Paid"
+            },
+            {
+              "name": "Semantic Scholar",
+              "url": "https://semanticscholar.org",
+              "description": "AI-powered academic search engine",
+              "pricing": "Free"
+            },
+            {
+              "name": "SciSpace",
+              "url": "https://scispace.com",
+              "description": "AI tool for reading and understanding papers",
+              "pricing": "Free / Paid",
+              "gem": true
+            },
+            {
+              "name": "Tana",
+              "url": "https://tana.inc",
+              "description": "Put your notes to work with voice and AI",
+              "pricing": "Free / Paid",
+              "gem": true
+            },
+            {
+              "name": "Thea",
+              "url": "https://thea.study",
+              "description": "AI-powered personalized study platform",
+              "pricing": "Free / Paid",
+              "gem": true
+            },
+            {
+              "id": 324,
+              "name": "AskLibrary",
+              "url": "https://asklibrary.ai",
+              "description": "Get personalized advice from books across your entire library.",
+              "pricing": "Paid",
+              "isGem": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "productivity",
+      "name": "Productivity & Automation",
+      "icon": "\u26a1",
+      "color": "#F97316",
+      "subcategories": [
+        {
+          "id": "automation",
+          "name": "Automation",
+          "tools": [
+            {
+              "name": "Zapier",
+              "url": "https://zapier.com",
+              "description": "Connect apps and automate workflows with AI",
+              "pricing": "Free / Paid",
+              "featured": true
+            },
+            {
+              "name": "Make",
+              "url": "https://make.com",
+              "description": "Visual automation platform with AI features",
+              "pricing": "Free / Paid",
+              "featured": true
+            },
+            {
+              "name": "Relevance AI",
+              "url": "https://relevanceai.com",
+              "description": "AI automation and agent platform",
+              "pricing": "Free / Paid",
+              "gem": true
+            },
+            {
+              "name": "Trybloom.ai",
+              "url": "https://trybloom.ai",
+              "description": "AI-powered automation platform",
+              "pricing": "Varies",
+              "gem": true
+            },
+            {
+              "name": "Kie.ai",
+              "url": "https://kie.ai",
+              "description": "AI automation and workflow tool",
+              "pricing": "Varies",
+              "gem": true
+            },
+            {
+              "name": "DoAnything",
+              "url": "https://doanything.com",
+              "description": "AI automation platform",
+              "pricing": "Varies",
+              "gem": true
+            },
+            {
+              "name": "Reclaim AI",
+              "url": "https://reclaim.ai",
+              "description": "Smart calendar - AI scheduling assistant",
+              "pricing": "Free / Paid",
+              "gem": true
+            },
+            {
+              "name": "Goblin Tools",
+              "url": "https://goblin.tools",
+              "description": "AI productivity tools for neurodivergent users",
+              "pricing": "Free",
+              "gem": true
+            },
+            {
+              "id": 326,
+              "name": "FigJam AI",
+              "url": "https://figma.com/figjam",
+              "description": "AI-powered diagrams and flowcharts for brainstorming.",
+              "pricing": "Freemium",
+              "isGem": false
+            },
+            {
+              "id": 327,
+              "name": "Scribe AI",
+              "url": "https://scribehow.com",
+              "description": "Automatically documents workflows into step-by-step guides.",
+              "pricing": "Freemium",
+              "isGem": true
+            },
+            {
+              "id": 328,
+              "name": "Jotform AI",
+              "url": "https://jotform.com/ai",
+              "description": "AI-powered form builder and agents for automation.",
+              "pricing": "Freemium",
+              "isGem": false
+            }
+          ]
+        },
+        {
+          "id": "meetings",
+          "name": "Meeting AI",
+          "tools": [
+            {
+              "name": "Otter.ai",
+              "url": "https://otter.ai",
+              "description": "AI meeting transcription and notes",
+              "pricing": "Free / Paid",
+              "featured": true
+            },
+            {
+              "name": "Fireflies.ai",
+              "url": "https://fireflies.ai",
+              "description": "AI meeting assistant and transcription",
+              "pricing": "Free / Paid"
+            },
+            {
+              "name": "Fathom",
+              "url": "https://fathom.video",
+              "description": "Free AI meeting recorder and summarizer",
+              "pricing": "Free / Paid",
+              "gem": true
+            },
+            {
+              "name": "tl;dv",
+              "url": "https://tldv.io",
+              "description": "AI meeting recorder with highlights",
+              "pricing": "Free / Paid",
+              "gem": true
+            },
+            {
+              "name": "Grain",
+              "url": "https://grain.com",
+              "description": "AI meeting highlights and clips",
+              "pricing": "Free / Paid",
+              "gem": true
+            },
+            {
+              "name": "Sembly AI",
+              "url": "https://sembly.ai",
+              "description": "AI meeting assistant with action items",
+              "pricing": "Free / Paid",
+              "gem": true
+            },
+            {
+              "name": "Proactor.ai",
+              "url": "https://proactor.ai",
+              "description": "AI meeting helper for productivity",
+              "pricing": "Varies",
+              "gem": true
+            },
+            {
+              "id": 325,
+              "name": "Vomo AI",
+              "url": "https://vomo.ai",
+              "description": "Records and transcribes meetings fast, lets you ask questions from notes.",
+              "pricing": "Freemium",
+              "isGem": true
+            }
+          ]
+        },
+        {
+          "id": "email",
+          "name": "Email & Communication",
+          "tools": [
+            {
+              "name": "Superhuman",
+              "url": "https://superhuman.com",
+              "description": "AI-powered email client for speed",
+              "pricing": "$30/mo"
+            },
+            {
+              "name": "Lavender",
+              "url": "https://lavender.ai",
+              "description": "AI email coach for sales teams",
+              "pricing": "Free / Paid",
+              "gem": true
+            },
+            {
+              "name": "Shortwave",
+              "url": "https://shortwave.com",
+              "description": "AI-first email client",
+              "pricing": "Free / Paid",
+              "gem": true
+            },
+            {
+              "name": "SaneBox",
+              "url": "https://sanebox.com",
+              "description": "AI email management and organization",
+              "pricing": "Paid",
+              "gem": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "name": "Business & Marketing",
+      "icon": "\ud83d\udcbc",
+      "color": "#EF4444",
+      "subcategories": [
+        {
+          "id": "marketing",
+          "name": "Marketing AI",
+          "tools": [
+            {
+              "name": "HubSpot AI",
+              "url": "https://hubspot.com",
+              "description": "AI-powered CRM and marketing platform",
+              "pricing": "Free / Paid",
+              "featured": true
+            },
+            {
+              "name": "Salesforce Einstein",
+              "url": "https://salesforce.com/einstein",
+              "description": "AI for CRM and sales automation",
+              "pricing": "Enterprise"
+            },
+            {
+              "name": "Drift",
+              "url": "https://drift.com",
+              "description": "AI-powered conversational marketing",
+              "pricing": "Paid"
+            },
+            {
+              "name": "Aha",
+              "url": "https://aha.io/ai",
+              "description": "The world's first AI influencer marketing team",
+              "pricing": "Paid",
+              "gem": true
+            },
+            {
+              "id": 329,
+              "name": "PopAi",
+              "url": "https://popai.pro",
+              "description": "AI presentation agent that turns docs and notes into professional slides.",
+              "pricing": "Freemium",
+              "isGem": true
+            }
+          ]
+        },
+        {
+          "id": "analytics",
+          "name": "Analytics",
+          "tools": [
+            {
+              "name": "Mixpanel",
+              "url": "https://mixpanel.com",
+              "description": "Product analytics with AI insights",
+              "pricing": "Free / Paid"
+            },
+            {
+              "name": "Amplitude",
+              "url": "https://amplitude.com",
+              "description": "Digital analytics platform",
+              "pricing": "Free / Paid"
+            },
+            {
+              "name": "Heap",
+              "url": "https://heap.io",
+              "description": "Auto-capture analytics with AI",
+              "pricing": "Free / Paid"
+            },
+            {
+              "name": "Sagehood",
+              "url": "https://sagehood.ai",
+              "description": "AI agents for 360 analysis of the U.S stock market",
+              "pricing": "Paid",
+              "gem": true
+            }
+          ]
+        },
+        {
+          "id": "sales",
+          "name": "Sales AI",
+          "tools": [
+            {
+              "name": "Gong",
+              "url": "https://gong.io",
+              "description": "AI revenue intelligence platform",
+              "pricing": "Enterprise",
+              "featured": true
+            },
+            {
+              "name": "Clari",
+              "url": "https://clari.com",
+              "description": "AI revenue platform for forecasting",
+              "pricing": "Enterprise"
+            },
+            {
+              "name": "Outreach",
+              "url": "https://outreach.io",
+              "description": "AI sales engagement platform",
+              "pricing": "Paid"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nocode",
+      "name": "No-Code & Builders",
+      "icon": "\ud83d\udd27",
+      "color": "#8B5CF6",
+      "subcategories": [
+        {
+          "id": "web-builders",
+          "name": "Website Builders",
+          "tools": [
+            {
+              "name": "Webflow",
+              "url": "https://webflow.com",
+              "description": "Visual web development platform",
+              "pricing": "Free / Paid",
+              "featured": true
+            },
+            {
+              "name": "Wix AI",
+              "url": "https://wix.com",
+              "description": "AI website builder",
+              "pricing": "Free / Paid"
+            },
+            {
+              "name": "Framer",
+              "url": "https://framer.com",
+              "description": "AI-powered website builder",
+              "pricing": "Free / Paid"
+            },
+            {
+              "name": "Durable",
+              "url": "https://durable.co",
+              "description": "AI website builder in 30 seconds",
+              "pricing": "Free / Paid",
+              "gem": true
+            },
+            {
+              "name": "Chronicle",
+              "url": "https://chronicle.io",
+              "description": "Cursor for Slides - stunning presentations with AI",
+              "pricing": "Free / Paid",
+              "featured": true,
+              "gem": true
+            },
+            {
+              "name": "PageOn.AI",
+              "url": "https://pageon.ai",
+              "description": "Cursor for Visual Communication, beyond slides",
+              "pricing": "Free / Paid",
+              "gem": true
+            },
+            {
+              "name": "Gamma",
+              "url": "https://gamma.app",
+              "description": "AI presentation maker - create decks instantly",
+              "pricing": "Free / Paid",
+              "featured": true
+            },
+            {
+              "name": "Decktopus",
+              "url": "https://decktopus.com",
+              "description": "AI presentation tool with smart templates",
+              "pricing": "Free / Paid",
+              "gem": true
+            },
+            {
+              "name": "ChatSlide.ai",
+              "url": "https://chatslide.ai",
+              "description": "Turns content into presentations with AI",
+              "pricing": "Free / Paid",
+              "gem": true
+            },
+            {
+              "name": "Framer AI",
+              "url": "https://framer.com",
+              "description": "AI website builder with design tools",
+              "pricing": "Free / Paid",
+              "featured": true
+            }
+          ]
+        },
+        {
+          "id": "app-builders-nocode",
+          "name": "App Builders",
+          "tools": [
+            {
+              "name": "Bubble",
+              "url": "https://bubble.io",
+              "description": "No-code platform for web apps",
+              "pricing": "Free / Paid",
+              "featured": true
+            },
+            {
+              "name": "Glide",
+              "url": "https://glideapps.com",
+              "description": "Build apps from spreadsheets",
+              "pricing": "Free / Paid"
+            },
+            {
+              "name": "Adalo",
+              "url": "https://adalo.com",
+              "description": "No-code mobile app builder",
+              "pricing": "Free / Paid"
+            },
+            {
+              "name": "Create with Play",
+              "url": "https://createwithplay.com",
+              "description": "Mobile app builder with AI",
+              "pricing": "Varies",
+              "gem": true
+            }
+          ]
+        },
+        {
+          "id": "workflow",
+          "name": "Workflow Tools",
+          "tools": [
+            {
+              "name": "Airtable",
+              "url": "https://airtable.com",
+              "description": "Spreadsheet-database hybrid with AI",
+              "pricing": "Free / Paid"
+            },
+            {
+              "name": "Coda",
+              "url": "https://coda.io",
+              "description": "All-in-one doc with AI features",
+              "pricing": "Free / Paid"
+            },
+            {
+              "name": "Tally",
+              "url": "https://tally.so",
+              "description": "Form builder with AI",
+              "pricing": "Free / Paid",
+              "gem": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "name": "Data & Analytics",
+      "icon": "\ud83d\udcca",
+      "color": "#06B6D4",
+      "subcategories": [
+        {
+          "id": "data-analysis",
+          "name": "Data Analysis",
+          "tools": [
+            {
+              "name": "Julius AI",
+              "url": "https://julius.ai",
+              "description": "AI data analyst - analyze data with natural language",
+              "pricing": "Free / Paid",
+              "featured": true
+            },
+            {
+              "name": "Tableau AI",
+              "url": "https://tableau.com",
+              "description": "Business intelligence with AI features",
+              "pricing": "Paid"
+            },
+            {
+              "name": "ThoughtSpot",
+              "url": "https://thoughtspot.com",
+              "description": "AI-powered analytics platform",
+              "pricing": "Enterprise"
+            },
+            {
+              "id": 330,
+              "name": "Sourcetable",
+              "url": "https://sourcetable.com",
+              "description": "AI spreadsheet for data analysis, SEO, forecasting, web scraping. Excel + ChatGPT.",
+              "pricing": "Freemium",
+              "isGem": true
+            }
+          ]
+        },
+        {
+          "id": "data-tools",
+          "name": "Data Tools",
+          "tools": [
+            {
+              "name": "Hex",
+              "url": "https://hex.tech",
+              "description": "Collaborative data workspace with AI",
+              "pricing": "Free / Paid",
+              "gem": true
+            },
+            {
+              "name": "Mode",
+              "url": "https://mode.com",
+              "description": "Analytics platform with AI features",
+              "pricing": "Free / Paid"
+            },
+            {
+              "name": "Deepnote",
+              "url": "https://deepnote.com",
+              "description": "Data science notebook with AI",
+              "pricing": "Free / Paid",
+              "gem": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "name": "Finance & Trading",
+      "icon": "\ud83d\udcb0",
+      "color": "#22C55E",
+      "subcategories": [
+        {
+          "id": "fintech",
+          "name": "FinTech AI",
+          "tools": [
+            {
+              "name": "Fin.ai",
+              "url": "https://fin.ai",
+              "description": "AI-powered financial assistant",
+              "pricing": "Varies",
+              "gem": true
+            },
+            {
+              "name": "Kensho",
+              "url": "https://kensho.com",
+              "description": "AI analytics for finance",
+              "pricing": "Enterprise"
+            },
+            {
+              "name": "Alpaca",
+              "url": "https://alpaca.markets",
+              "description": "AI-powered trading API",
+              "pricing": "Free / Paid"
+            }
+          ]
+        },
+        {
+          "id": "personal-finance",
+          "name": "Personal Finance",
+          "tools": [
+            {
+              "name": "Cleo",
+              "url": "https://meetcleo.com",
+              "description": "AI money management assistant",
+              "pricing": "Free / Paid"
+            },
+            {
+              "name": "Copilot Money",
+              "url": "https://copilot.money",
+              "description": "AI-powered finance tracker",
+              "pricing": "Paid",
+              "gem": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "name": "Education & Learning",
+      "icon": "\ud83d\udcda",
+      "color": "#A855F7",
+      "subcategories": [
+        {
+          "id": "learning",
+          "name": "Learning Platforms",
+          "tools": [
+            {
+              "name": "Duolingo",
+              "url": "https://duolingo.com",
+              "description": "AI-powered language learning",
+              "pricing": "Free / Paid",
+              "featured": true
+            },
+            {
+              "name": "Khan Academy",
+              "url": "https://khanacademy.org",
+              "description": "Free education with AI tutor Khanmigo",
+              "pricing": "Free"
+            },
+            {
+              "name": "Coursera",
+              "url": "https://coursera.org",
+              "description": "Online courses with AI features",
+              "pricing": "Free / Paid"
+            }
+          ]
+        },
+        {
+          "id": "tutoring",
+          "name": "AI Tutoring",
+          "tools": [
+            {
+              "name": "Khanmigo",
+              "url": "https://khanacademy.org/khan-labs",
+              "description": "AI tutor from Khan Academy",
+              "pricing": "Paid",
+              "featured": true
+            },
+            {
+              "name": "Synthesis",
+              "url": "https://synthesis.com",
+              "description": "AI-powered learning for kids",
+              "pricing": "Paid",
+              "gem": true
+            },
+            {
+              "name": "Brisk Teaching",
+              "url": "https://briskteaching.com",
+              "description": "AI tools for teachers",
+              "pricing": "Free / Paid",
+              "gem": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "health",
+      "name": "Healthcare & Wellness",
+      "icon": "\ud83c\udfe5",
+      "color": "#EF4444",
+      "subcategories": [
+        {
+          "id": "mental-health",
+          "name": "Mental Health",
+          "tools": [
+            {
+              "name": "Headspace",
+              "url": "https://headspace.com",
+              "description": "Meditation and mental health with AI",
+              "pricing": "Free / Paid",
+              "featured": true
+            },
+            {
+              "name": "Woebot",
+              "url": "https://woebot.io",
+              "description": "AI mental health chatbot",
+              "pricing": "Free"
+            },
+            {
+              "name": "Youper",
+              "url": "https://youper.ai",
+              "description": "AI emotional health assistant",
+              "pricing": "Free / Paid",
+              "gem": true
+            }
+          ]
+        },
+        {
+          "id": "health-tools",
+          "name": "Health Tools",
+          "tools": [
+            {
+              "name": "Ada Health",
+              "url": "https://ada.com",
+              "description": "AI symptom checker",
+              "pricing": "Free"
+            },
+            {
+              "name": "Babylon Health",
+              "url": "https://babylonhealth.com",
+              "description": "AI-powered healthcare",
+              "pricing": "Varies"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3d-gaming",
+      "name": "3D & Gaming",
+      "icon": "\ud83c\udfae",
+      "color": "#7C3AED",
+      "subcategories": [
+        {
+          "id": "3d-gen",
+          "name": "3D Generation",
+          "tools": [
+            {
+              "name": "Meshy",
+              "url": "https://meshy.ai",
+              "description": "AI 3D model generation from text",
+              "pricing": "Free / Paid",
+              "featured": true
+            },
+            {
+              "name": "Luma AI",
+              "url": "https://lumalabs.ai",
+              "description": "AI 3D capture and generation",
+              "pricing": "Free / Paid"
+            },
+            {
+              "name": "Spline AI",
+              "url": "https://spline.design",
+              "description": "3D design tool with AI features",
+              "pricing": "Free / Paid",
+              "gem": true
+            }
+          ]
+        },
+        {
+          "id": "game-dev",
+          "name": "Game Development",
+          "tools": [
+            {
+              "name": "Scenario",
+              "url": "https://scenario.com",
+              "description": "AI game asset generation",
+              "pricing": "Free / Paid",
+              "gem": true
+            },
+            {
+              "name": "Inworld AI",
+              "url": "https://inworld.ai",
+              "description": "AI NPCs for games",
+              "pricing": "Free / Paid",
+              "gem": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "name": "Security & Privacy",
+      "icon": "\ud83d\udd12",
+      "color": "#64748B",
+      "subcategories": [
+        {
+          "id": "security-tools",
+          "name": "Security Tools",
+          "tools": [
+            {
+              "name": "Snyk",
+              "url": "https://snyk.io",
+              "description": "AI security platform for developers",
+              "pricing": "Free / Paid",
+              "featured": true
+            },
+            {
+              "name": "Darktrace",
+              "url": "https://darktrace.com",
+              "description": "AI cybersecurity platform",
+              "pricing": "Enterprise"
+            },
+            {
+              "name": "Gecko Security",
+              "url": "https://geckosecurity.ai",
+              "description": "AI security vulnerability finder",
+              "pricing": "Varies",
+              "gem": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "blockchain",
+      "name": "Blockchain & Web3",
+      "icon": "\u26d3\ufe0f",
+      "color": "#F59E0B",
+      "subcategories": [
+        {
+          "id": "web3-ai",
+          "name": "Web3 AI",
+          "tools": [
+            {
+              "name": "ChainGPT",
+              "url": "https://chaingpt.org",
+              "description": "AI for blockchain and crypto",
+              "pricing": "Free / Paid",
+              "gem": true
+            },
+            {
+              "name": "Fetch.ai",
+              "url": "https://fetch.ai",
+              "description": "AI and blockchain platform",
+              "pricing": "Varies",
+              "gem": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "creative",
+      "name": "Creative & Fun",
+      "icon": "\u2728",
+      "color": "#EC4899",
+      "subcategories": [
+        {
+          "id": "creative-tools",
+          "name": "Creative Tools",
+          "tools": [
+            {
+              "name": "Glif",
+              "url": "https://glif.app",
+              "description": "AI creative tool for unique content",
+              "pricing": "Free / Paid",
+              "gem": true
+            },
+            {
+              "name": "Dreamflow",
+              "url": "https://dreamflow.app",
+              "description": "AI creative platform",
+              "pricing": "Varies",
+              "gem": true
+            },
+            {
+              "name": "Wonder.so",
+              "url": "https://wonder.so",
+              "description": "AI creative tool",
+              "pricing": "Varies",
+              "gem": true
+            },
+            {
+              "name": "Galaxy.AI",
+              "url": "https://galaxy.ai",
+              "description": "AI creative platform",
+              "pricing": "Varies",
+              "gem": true
+            },
+            {
+              "name": "String.com",
+              "url": "https://string.com",
+              "description": "AI creative tool",
+              "pricing": "Varies",
+              "gem": true
+            }
+          ]
+        },
+        {
+          "id": "experiments",
+          "name": "AI Experiments",
+          "tools": [
+            {
+              "name": "Google Antigravity",
+              "url": "https://google.com/antigravity",
+              "description": "Google's fun AI experiment",
+              "pricing": "Free",
+              "gem": true
+            },
+            {
+              "name": "AutoDraw",
+              "url": "https://autodraw.com",
+              "description": "AI that turns sketches into drawings",
+              "pricing": "Free",
+              "gem": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "totalTools": 355,
+    "totalCategories": 17,
+    "hiddenGems": 120
+  }
+}

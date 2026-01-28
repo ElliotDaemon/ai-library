@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1769284384804,
+      "tag": "0000_mature_wrecking_crew",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1769284458986,
+      "tag": "0001_fat_newton_destine",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1769542641566,
+      "tag": "0002_dear_quentin_quire",
+      "breakpoints": true
+    }
+  ]
+}
