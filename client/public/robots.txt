@@ -1,0 +1,9 @@
+# AI Tree Library - robots.txt
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://aitreelibrary.com/sitemap.xml
+
+# Crawl-delay (optional, be nice to servers)
+Crawl-delay: 1
